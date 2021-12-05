@@ -3,44 +3,44 @@
 	<meta charset="UTF-8">
 	<script type="text/javascript">
 		const CHERUBS = [
-			"Library of Negated Words:Next room past Diosdado",
-			"Library of Negated Words:Near The Sleeping Canvasas entrance",
-			"Wall of Holy Prohibitions:First door, left of ladder below Prie-Dieu",
-			"Wall of Holy Prohibitions:Room with gas, first door going right from stair room with Lion Head",
-			"Wall of Holy Prohibitions:Near cable car",
-			"Brotherhood of the Silent Sorrow:First room in the game, to the left",
-			"The Holy Line:Section right before Albero",
-			"Albero:On top of church",
-			"Mercy Dreams:Near stairs above spikes, a few levels right below a Confessionary statue on the map",
-			"Wasteland of the Buried Churches:Middle section, between Albero and Bridge of the Three Calvaries",
-			"Desecrated Cistern:Wide C-shaped room, to the left of Ten Piedad",
-			"Desecrated Cistern:Hidden behind a pillar, on the room to the left of the double gates, above vertical shaft from mid-entrance of the elevator shaft",
-			"Desecrated Cistern:Upper-right room, just under Wasteland of the Buried Churches on the map",
-			"Desecrated Cistern:Reverse C-shaped room full of gas",
-			"Desecrated Cistern:Top of elevator shaft, near lever",
-			"Mountains of the Endless Dusk:Above Jondo, with the double moving platforms",
-			"Jondo:Upper-left square room",
-			"Jondo:Mid-right square-shaped room, near right-most statues",
+			"Library of Negated Words:Next room past Diosdado.",
+			"Library of Negated Words:Near The Sleeping Canvases entrance.",
+			"Wall of Holy Prohibitions:First door, left of ladder below Prie Dieu.",
+			"Wall of Holy Prohibitions:Room with gas, first door going rightwards starting from the stair room with a Lion Head.",
+			"Wall of Holy Prohibitions:Near cable car.",
+			"Brotherhood of the Silent Sorrow:First room in the game, to the left. Requires Blood Perpetuated in Sand and Three Gnarled Tongues.",
+			"The Holy Line:Section right before Albero.",
+			"Albero:On top of church.",
+			"Mercy Dreams:Near stairs above spikes, a few levels right below a Confessor Dungeon on the map.",
+			"Wasteland of the Buried Churches:Middle section, between Albero and Bridge of the Three Calvaries.",
+			"Desecrated Cistern:Wide C-shaped room, to the left of Ten Piedad.",
+			"Desecrated Cistern:Hidden behind a pillar on the room to the left of the double gates, which is also above the vertical shaft starting from mid-entrance of the elevator shaft.",
+			"Desecrated Cistern:Upper-right room, just under Wasteland of the Buried Churches on the map.",
+			"Desecrated Cistern:Reverse C-shaped room full of gas.",
+			"Desecrated Cistern:Top of elevator shaft, near lever.",
+			"Mountains of the Endless Dusk:Above Jondo, with the double moving platforms.",
+			"Jondo:Upper-left square-shaped room.",
+			"Jondo:Mid-right square-shaped room, near right-most statues anchoring the chain.",
 			"Grievance Ascends:Top-right vertical shaft, near Silvered Lung of Dolphos",
-			"Grievance Ascends:Near Altasgracias",
-			"Grievance Ascends:Mid-right sectio with a blood platform bridge, above Melted Coins",
-			"Desecrated Cistern:Middle of elevator shaft",
-			"Where Olive Trees Wither:Room to the left of Gémino, at the top",
-			"Graveyard of the Peaks:At the top of second vertical shaft coming from Where Olive Trees Wither",
-			"Graveyard of the Peaks:Third vertical room moving leftwards from Where Olive Trees Wither",
-			"Graveyard of the Peaks:Mid-portion of elvator shaft, to the right, under elevators. Requires Linen of Golden Thread",
-			"Where Olive Trees Wither:Secret cave area in the abyss after Gémino. Requires Linen of Golden Thread.",
-			"Patio of the Silent Steps:Above entrace to the Library of Negated Words",
-			"Mother of Mothers:Mid-left vertical rectangular room, near Socorro",
-			"Mother of Mothers:Entrance from Patio of the Silent Steps",
-			"Graveyard of the Peaks:Near shop",
-			"Library of Negated Words:Elevator shaft, starting from the bottom near The Sleeping Canvases, and jumping on a bunch of blood platforms and growing roots",
-			"The Sleeping Canvases:Bottom gateway into Mercy Dreams",
-			"Wall of Holy Prohibitions:Room before Quirce",
-			"Patio of the Silent Steps:First room coming from Ferrous Tree, near the bottom",
-			"Archcathedral Rooftops:Middle of big vertical shaft to the left of elevator shaft",
-			"Jondo:Near Echoes of Salt",
-			"Wasteland of the Buried Churches:Precipice in the room past the three ladders above spikes, below entrance to Where Olive Trees Wither"
+			"Grievance Ascends:Room near Altasgracias, under the stairs above doorway.",
+			"Grievance Ascends:Mid-right section with a blood platform bridge, above Melted Coins.",
+			"Desecrated Cistern:Middle of the long elevator shaft.",
+			"Where Olive Trees Wither:Room to the left of Gémino, at the top. Requires Three Gnarled Tongues.",
+			"Graveyard of the Peaks:At the top of second vertical shaft when coming from Where Olive Trees Wither.",
+			"Graveyard of the Peaks:Third vertical room when moving up and leftwards, coming from Where Olive Trees Wither.",
+			"Graveyard of the Peaks:Mid-portion of elvator shaft, to the right, under elevators. Requires Linen of Golden Thread.",
+			"Where Olive Trees Wither:Secret cave area in the first abyss after Gémino. Requires Linen of Golden Thread.",
+			"Patio of the Silent Steps:Above entrace to the Library of Negated Words.",
+			"Mother of Mothers:Mid-left vertical rectangular room, near Socorro's room.",
+			"Mother of Mothers:Entrance from Patio of the Silent Steps.",
+			"Graveyard of the Peaks:Near the shop, to the right. The shop is in the rightmost room coming from the middle of the elevator shaft. Requires Blood Perpetuated in Sand.",
+			"Library of Negated Words:Elevator shaft, starting from the bottom near The Sleeping Canvases, and jumping on a bunch of blood platforms and growing roots. Requires Blood Perpetuated in Sand and Three Gnarled Tongues.",
+			"The Sleeping Canvases:Bottom gateway into Mercy Dreams.",
+			"Wall of Holy Prohibitions:Room before dropping towards Quirce.",
+			"Patio of the Silent Steps:First room coming from Ferrous Tree, near the bottom.",
+			"Archcathedral Rooftops:Middle of big vertical shaft to the left of elevator shaft.",
+			"Jondo:Corridor near Echoes of Salt entrance.",
+			"Wasteland of the Buried Churches:Precipice in the room past the three ladders above spikes, below entrance to Where Olive Trees Wither. Requires ranged attack."
 		]
 		
 		function openSaveFile() {
@@ -58,8 +58,8 @@
 		function checkSaveFile(data) {
 			var save = JSON.parse(decodeURIComponent(escape(window.atob(data))));
 			var cherublist = document.getElementById("cherublist");
-			cherublist.innerHTML = "<tr><th>#</th><th>Area</th><th>Location</th></tr>";
-			let tr, th;
+			cherublist.innerHTML = "<tr><th>Rescued</th><th>#</th><th>Area</th><th>Location</th></tr>";
+			let tr, td;
 			let tds = document.getElementsByTagName("td");
 			for (var i = 0; i < CHERUBS.length; i++) {
 				let rc = save["commonElements"]["ID_EVENT_MANAGER"]["flags"]["RESCUED_CHERUB_" + String(i+1).padStart(2,"0")];
@@ -68,17 +68,22 @@
 				tr = document.createElement("tr");
 				tr.className = (rc ? "rescued" : "missing");
 				
-				th = document.createElement("td");
-				th.innerHTML = (i+1).toString();
-				tr.appendChild(th);
+				td = document.createElement("td");
+				td.innerHTML = (rc ? "&#x2714;" : "");
+				td.className = "hc";
+				tr.appendChild(td);
 				
-				th = document.createElement("td");
-				th.innerHTML = cl[0];
-				tr.appendChild(th);
+				td = document.createElement("td");
+				td.innerHTML = (i+1).toString();
+				tr.appendChild(td);
 				
-				th = document.createElement("td");
-				th.innerHTML = cl[1];
-				tr.appendChild(th);
+				td = document.createElement("td");
+				td.innerHTML = cl[0];
+				tr.appendChild(td);
+				
+				td = document.createElement("td");
+				td.innerHTML = cl[1];
+				tr.appendChild(td);
 				
 				cherublist.appendChild(tr);
 			}
@@ -89,6 +94,7 @@
 		table { border-collapse: collapse; border: 1px solid #CCC; margin-top: 50px; }
 		.rescued { background-color: #DFD; }
 		.missing { background-color: #FDD; }
+		.hc { text-align: center; }
 		th, td { border: 1px solid #CCC; padding: 3px 10px; }
 		th { background-color: #EEE; }
 	</style>
